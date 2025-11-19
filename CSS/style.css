@@ -176,7 +176,7 @@ html {
 }
 
 .btn-danger:hover {
-    background-color: rgb(66, 60, 60);
+    background-color: black;
     border-radius: 10px;
     transition: border-radius 0.3s ease-in-out;
     -webkit-border-radius: 10px;
