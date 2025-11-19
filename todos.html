@@ -15,15 +15,15 @@
 
 <body>
     <div class="containercreate">
-        <h2>BUAT LIST</h2><br />
+        <h2>To Do List</h2><br />
         <div class="todo">
-            <input id="inputName" maxlength="10px" type="text" placeholder="Nama Acara" class="name" />
+            <input id="inputName" maxlength="10px" type="text" placeholder="Nama Agenda" class="name" />
             <input id="inputDate" type="date" class="date" />
             <button id="btnAdd" type="button" class="btnadd">+</button><br><br>
             <select id="filterSelect" class="form-select">
                 <option value="all">Semua</option>
                 <option value="today">Hari Ini</option>
-                <option value="upcoming">Yang Akan Datang</option>
+                <option value="upcoming">Yang akan datang</option>
             </select>
             <button onclick="resetList()" class="btn btn-danger" style="margin-top: 20px; width: 460px;">Reset</button>
 
@@ -32,9 +32,9 @@
                     <thead>
                         <tr>
                             <th>No</th>
-                            <th>Nama Acara</th>
+                            <th>Nama Agenda</th>
                             <th>Tanggal</th>
-                            <th>Aksi</th>
+                            <th>Tindakan</th>
                         </tr>
                     </thead>
                     <tbody id="tableBody">
@@ -45,5 +45,6 @@
     </div>
     <script src="js/script.js"></script>
 </body>
+
 
 </html>
